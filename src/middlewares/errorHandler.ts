@@ -13,7 +13,6 @@ export function errorHandler(err: ApiError, req: Request, res: Response, next: N
   res.locals.errorMessage = message;
 
   return res.status(statusCode).json({
-    status: 'error',
     statusCode,
     message
   });
