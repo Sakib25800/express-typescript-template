@@ -5,7 +5,7 @@ A template for typescript with node and express
 * **Validation**: request validation using Joi
 * **Logging**: using winston and morgan
 * **Testing**: unit and integration testing using Jest 
-* **Error** handling: central error handling system
+* **Errors**: central error handling system
 * **Dependency** management: with NPM
 * **Environment** variables: using dotenv
 * **Security**: security HTTP headers using helmet 
