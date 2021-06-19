@@ -91,7 +91,7 @@ import * as userValidation from '../validations';
 import * as userController from '../controllers';
 
 const router = Router();
-router.get('/users), validate((userValidation.registerSchema), userController.register);
+router.get('/users), validate(userValidation.registerSchema), userController.register);
 ```
 
 # Logging 
